@@ -29,8 +29,8 @@
 
 - ### Pandas
 
-  - [Pandas 기초](https://github.com/)
-  - [Pandas 최적화](https://github.com/)
+  - [pandas 기초](https://github.com/)
+  - [pandas 최적화](https://github.com/)
   
   <br>
 
