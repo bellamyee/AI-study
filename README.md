@@ -19,7 +19,12 @@
 
 <br>
 
-## 📌 AI Libraries / Frameworks
+## 📌 AI Python Libraries / Frameworks
+- ### Python
+
+  - [python 유용한 문법들](https://github.com/)
+
+  <br>
 
 - ### Numpy
 
