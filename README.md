@@ -49,13 +49,13 @@
 
   - [pytorch tutorial](https://github.com/)
   - [pytorch MLP](https://github.com/)
-  - [pytorch를 이용한 optimization 성능 비교](https://github.com/)
+  - [pytorch를 이용한 optimization 성능 비교](https://github.com/JeonghwanLee1/AI-study/blob/main/pytorch/optimization.ipynb)
   
 ## 📌 Deep Learning
 
 - ### Optimization
 
-  - [Optimization 정리](https://github.com/)
+  - [Optimization 방법 정리](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/optimization.ipynb)
 
   <br>
 
