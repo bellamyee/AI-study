@@ -62,7 +62,9 @@
 - ### CNN
 
   - [CNN 기초](https://github.com/)
-  
+
+- ### RNN
+  - [RNN 기초](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
 
 ## 📌 논문 학습 및 구현
 ## 📌 관련 프로젝트
