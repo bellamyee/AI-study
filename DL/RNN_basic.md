@@ -19,16 +19,41 @@
 ### Naive sequence model
 
  ![image](https://user-images.githubusercontent.com/43736669/106905889-f8d15100-673f-11eb-975e-aee42ddacb64.png)
+ 
  - 과거의 고려해야 할 정보량이 점점 늘어남 -> 고려할 시간 량을 고정한다면 해결
  
 ### Markov model(first-order autoregressive model)
+ 
+ - 가정 : 나의 현재는 바로 직전 과거에만 DEPENDENT 하다!
+ 
+ ![image](https://user-images.githubusercontent.com/43736669/106907746-ef48e880-6741-11eb-8efc-3f4af2960088.png)
+  
+ - 장점 : joint distribution을 표현할 때 굉장히 편함
+ 
+ - 단점 : 과거의 많은 정보를 고려해야하는데, 그러질 못함
+ 
+### Latent autoregressive model
+
+ ![image](https://user-images.githubusercontent.com/43736669/106908068-48188100-6742-11eb-8387-1b5c267bd907.png)
+ 
+ - 앞선 모델들의 단점(과거의 정보 고려)을 극복.
+ 
+ - 과거의 정보들을 Hidden state 하나에 summarize하여 저장하고, 거기서만 정보를 가져옴
  
 
 ## RNN
 
 ### RNN의 이해
+ - 
+ - 가장 기본적인 RNN 모형은 MLP와 유사한 모양(자기 자신으로 돌아오는 구조가 추가)<br>
+ 
+ ![image](https://user-images.githubusercontent.com/43736669/106908817-00dec000-6743-11eb-8656-2c3bd54552a2.png)
 
- - 가장 기본적인 RNN 모형은 MLP와 유사한 모양<br>
+ - 현재의 입력과 과거의 입력이 Recurrent 하게 들어옴
+ 
+ ![image](https://user-images.githubusercontent.com/43736669/106909702-e2c58f80-6743-11eb-9193-6a5de3da0c82.png)
+
+ 
  - RNN은 이전 순서의 잠재변수와 현재의 입력을 활용하여 모델링
 
 ![image](https://user-images.githubusercontent.com/43736669/106900903-6ed2b980-673a-11eb-839e-54d0d9b02d29.png)
