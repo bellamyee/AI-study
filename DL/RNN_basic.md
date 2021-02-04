@@ -53,6 +53,7 @@
  
  ![image](https://user-images.githubusercontent.com/43736669/106909702-e2c58f80-6743-11eb-9193-6a5de3da0c82.png)
 
+ - 이를 시간순으로 풀게 되면, 결국 Fully connected
  
  - RNN은 이전 순서의 잠재변수와 현재의 입력을 활용하여 모델링
 
@@ -66,5 +67,7 @@
 
  - 위와 같이 sequence 값이 커질 수록, 미분값이 엄청 커지거나, 엄청 작아지거나.<br>
  - gradient가 0으로 줄어드는게 큰 문제가 되므로 길이를 끊는 것이 필요(=truncated BPTT)<br>
+ - 또한, 과거의 정보가 사라질 확률이 높음
+ 
  - 이런 문제들 때문에 등장한 모델이 LSTM, GRU
  
