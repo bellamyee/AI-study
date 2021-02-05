@@ -67,7 +67,13 @@
 
  - 위와 같이 sequence 값이 커질 수록, 미분값이 엄청 커지거나, 엄청 작아지거나.<br>
  - gradient가 0으로 줄어드는게 큰 문제가 되므로 길이를 끊는 것이 필요(=truncated BPTT)<br>
- - 또한, 과거의 정보가 사라질 확률이 높음
+ - 또한, 과거의 정보가 사라질 확률이 높음 = long term dependency를 잡는게 되게 어렵다
+ 
+ - 위와 같이 굉장히 많은 W를 계속 곱하는 형태가 됨 
+ 
+ ![image](https://user-images.githubusercontent.com/43736669/106966657-1b3b8c80-6789-11eb-995a-58971e724994.png)
+
+ - activation function이 sigmoid라면 vanishing gradient, RELU라면 exploding gradient 현상 발생  
  
  - 이런 문제들 때문에 등장한 모델이 LSTM, GRU
  
