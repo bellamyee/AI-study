@@ -30,4 +30,4 @@
 ![image](https://user-images.githubusercontent.com/43736669/107912032-11900100-6fa1-11eb-9d52-25069846d309.png)
 ### 위와 같이 markov assumtion을 사용하면(바로 전 확률에만 dependent) exponential reduction을 유도 할 수 있다! (= auto regressive model)
 
-# Auto regressive model
+# Auto regressive model 
