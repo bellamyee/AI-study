@@ -67,8 +67,7 @@
   - [RNN 기초](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
 
 - ### 자연어 처리
-
-- [introduction to NLP](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
+  - [introduction to NLP](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
 
 
 ## 📌 논문 학습 및 구현
