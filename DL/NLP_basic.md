@@ -26,6 +26,6 @@
  ![image](https://user-images.githubusercontent.com/43736669/108029123-47e88180-7070-11eb-8b95-e266cbb03b7a.png)
 
 ## Word2Vec
- - 단어를 벡터로 표현하기 위한 알고리즘 
- - 유사한 context의 단어는 유사한 의미를 가진다고 가정 
- ![image](https://user-images.githubusercontent.com/43736669/108029485-d957f380-7070-11eb-9de8-a8002b99384f.png)
+ - 단어를 벡터로 표현하기 위한 알고리즘  
+ - 유사한 context의 단어는 유사한 의미를 가진다고 가정  
+ ![image](https://user-images.githubusercontent.com/43736669/108029485-d957f380-7070-11eb-9de8-a8002b99384f.png)  
