@@ -22,3 +22,8 @@
  ![image](https://user-images.githubusercontent.com/43736669/108024679-5fbc0780-7068-11eb-9cb8-fa4682ff2df6.png)
  ![image](https://user-images.githubusercontent.com/43736669/108025344-a827f500-7069-11eb-9015-c00e41595c9c.png)
  ![image](https://user-images.githubusercontent.com/43736669/108028280-effd4b00-706e-11eb-98a8-cc67aa89d594.png)
+ ![image](https://user-images.githubusercontent.com/43736669/108029091-3acb9280-7070-11eb-9379-2713c4ace983.png)
+ ![image](https://user-images.githubusercontent.com/43736669/108029123-47e88180-7070-11eb-8b95-e266cbb03b7a.png)
+
+## Word2Vec
+#
