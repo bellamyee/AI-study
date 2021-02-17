@@ -77,3 +77,4 @@
  
  - 이런 문제들 때문에 등장한 모델이 LSTM, GRU
  
+ ## RNN과 Language Model
