@@ -53,7 +53,7 @@
  
  ![image](https://user-images.githubusercontent.com/43736669/106909702-e2c58f80-6743-11eb-9193-6a5de3da0c82.png)
 
- - 이를 시간순으로 풀게 되면, 결국 Fully connected
+ - 이를 시간순으로 풀게 되면, 결국 Fully connected(shared weight) 
  
  - RNN은 이전 순서의 잠재변수와 현재의 입력을 활용하여 모델링
 
