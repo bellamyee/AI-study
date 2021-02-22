@@ -53,7 +53,7 @@
 
 - ### Graph, 추천 시스템
   - [NetworkX](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx.md)
-
+  - [NetworkX를 이용한 군집 계수와 지름 분석](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx_coefficient.md)
   
 ## 📌 Deep Learning
 
@@ -75,7 +75,8 @@
 
 ## 📌 Graph
  - [introduction to Graph](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/graph_basic.md)
- - [NetworkX](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx.md)
+ - [NetworkX tutorial](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx_tutorial.md)
+ - [NetworkX를 이용한 군집 계수와 지름 분석](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx_coefficient.md)
 ## 📌 논문 학습 및 구현
 ## 📌 관련 프로젝트
 
