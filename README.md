@@ -6,7 +6,7 @@
 
 ## 📌 AI MATH
 
-- [경사 하강법](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.ipynb)
+- [경사 하강법](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.md)
 - [확률론](https://github.com/) 
 - [통계학(기초)](https://github.com/)
 - [통계학(베이즈 통계학)](https://github.com/)
