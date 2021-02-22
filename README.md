@@ -23,6 +23,7 @@
 - ### Python
 
   - [python 유용한 문법들 정리](https://github.com/JeonghwanLee1/AI-study/blob/main/python/python_skills.ipynb)
+  - [경사 하강법(파이썬 코드)](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.ipynb)
 
   <br>
 
