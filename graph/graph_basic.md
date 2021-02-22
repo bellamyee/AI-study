@@ -55,7 +55,7 @@
  
 ## 연결 요소(Connected Component)
  - 1)연결 요소에 속하는 정점들은 경로로 연결될 수 있음
- - 2) 1)의 조건을 만족하면서 정점을 추갛라 수 없음
+ - 2)1)의 조건을 만족하면서 정점을 추 수 없음
  ![image](https://user-images.githubusercontent.com/43736669/108664123-71445a00-7515-11eb-85de-b65bfc9d084d.png)
  ![image](https://user-images.githubusercontent.com/43736669/108664158-80c3a300-7515-11eb-899a-82fe703ab95e.png)
 
