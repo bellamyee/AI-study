@@ -59,3 +59,26 @@
  ![image](https://user-images.githubusercontent.com/43736669/108664123-71445a00-7515-11eb-85de-b65bfc9d084d.png)
  ![image](https://user-images.githubusercontent.com/43736669/108664158-80c3a300-7515-11eb-899a-82fe703ab95e.png)
 
+## 거대 연결 요소(Giant Connected Component)
+ - 실제 그래프에서는 거대 연결 요소가 존재(대다수의 정점을 포함하는 연결 요소)
+ - MSN 그래프에서는 99.9%의 정점이 하나의 거대 연결 요소에 포함
+ ![image](https://user-images.githubusercontent.com/43736669/108664351-eb74de80-7515-11eb-9edc-ef6538f454cd.png)
+ - 랜덤 그래프에도 거대 연결 요소가 존재
+ ![image](https://user-images.githubusercontent.com/43736669/108664399-06dfe980-7516-11eb-9446-19238c0dbc4d.png)
+
+## 군집(Community)
+ - 군집이란 다음 조건들을 만족하는 정점들의 집합
+  - 집합에 속하는 정점 사이에는 많은 간선이 존재
+  - 집합에 속하는 정점과 그렇지 않은 정점 사이에는 적은 수의 간선이 존재
+ 
+ - 수학적으로 엄밀한 정의는 아니며, 예시 그래프에는 11개의 군집이 존재하는 것으로 보임
+ ![image](https://user-images.githubusercontent.com/43736669/108664502-3e4e9600-7516-11eb-9282-fdde6c247c94.png)
+ 
+ - 지역적 군집 계수(Local Clustering Coefficient) : 한 정점에서 군집의 형성 정도를 측정
+  - 정점 i의 지역점 군집 계수는 정점 i의 이웃 쌍 중 간선으로 직접 연결된 것의 비율을 의미
+  - 정점 i의 지역적 군집 계수를 Ci로 표현
+  ![image](https://user-images.githubusercontent.com/43736669/108664642-82419b00-7516-11eb-8071-5b65ea148d21.png)
+
+  
+ 
+
