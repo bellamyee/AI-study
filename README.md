@@ -52,7 +52,7 @@
   - [pytorch를 이용한 optimization 성능 비교](https://github.com/JeonghwanLee1/AI-study/blob/main/pytorch/optimization.ipynb)
 
 - ### Graph, 추천 시스템
-  - [NetworkX](https://github.com/JeonghwanLee1/AI-study/blob/main/grpah/networkx.md)
+  - [NetworkX](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx.md)
 
   
 ## 📌 Deep Learning
@@ -74,8 +74,8 @@
   - [introduction to NLP](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
 
 ## 📌 Graph
- - [introduction to Graph](https://github.com/JeonghwanLee1/AI-study/blob/main/grpah/graph_basic.md)
- - [NetworkX](https://github.com/JeonghwanLee1/AI-study/blob/main/grpah/networkx.md)
+ - [introduction to Graph](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/graph_basic.md)
+ - [NetworkX](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx.md)
 ## 📌 논문 학습 및 구현
 ## 📌 관련 프로젝트
 
