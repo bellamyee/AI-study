@@ -21,3 +21,41 @@
  ![image](https://user-images.githubusercontent.com/43736669/108661217-a13c2f00-750e-11eb-914c-1f5d01680a8d.png)
  - 파이썬에서는 networkX, snap.py 등의 라이브러리 사용
 
+
+## 실제 그래프와 랜덤 그래프
+ - 에르되스 레니 랜덤 그래프 G(n,p)
+  - 임의의 두 정점 사이에 간선이 존재하는지 여부는 동일한 확률 분포에 의해 결정됨
+  - n개의 정점을 가지며 두 정점 사이 간선이 존재할 확률은 p
+  - 정점 간의 연결은 서로 독립적(영향을 끼치지 않음)
+  
+  - ex. G(3, 0.3) 에 의해 생성될 수 있는 그래프와 각각의 확률은?
+  ![image](https://user-images.githubusercontent.com/43736669/108663515-13634280-7514-11eb-9a2f-8d929649eb9c.png)
+
+## 경로
+ - 정점 u와 v사이의 경로는 아래 조건을 만족하는 정점들의 순열(sequence)
+ ![image](https://user-images.githubusercontent.com/43736669/108663594-47d6fe80-7514-11eb-9267-a4b486654313.png)
+ ![image](https://user-images.githubusercontent.com/43736669/108663617-54f3ed80-7514-11eb-86f4-058202135e38.png)
+ - 경로의 길이는 당 경로 상에 놓이는 간선의 수
+ - 그래프의 지름(Diameter)은 정점 간 거리의 최댓값
+
+## 작은 세상 효과(small-world effect) 
+ - 임의의 두 사람을 골랐을 때, 평균적으로 6단계를 거쳐 연결되어 있음(편지 이용) 
+ - MSN 그래프에선 평균 거리가 7(거대 연결 구조만 고려)
+ - 체인, 사이클, 격자(Grid) 그래프에서는 존재하지 않음
+ ![image](https://user-images.githubusercontent.com/43736669/108663893-ecf1d700-7514-11eb-8fbe-ff621987f8f4.png)
+
+## 연결성(Degree)
+ - 정점의 연결성(Degree)은 정점과 연결된 간선의 수
+ - 나가는 연결성(dout), 들어오는 연결성(din) 으로도 표시
+ - 실제 그래프의 연결성 분포는 두터운 꼬리(heavy tail)을 가짐 : 허브 정점이 존재
+ ![image](https://user-images.githubusercontent.com/43736669/108663996-2cb8be80-7515-11eb-9cf9-f9e41a4bda71.png)
+ - 랜덤 그래프의 연결성 분포는 높은 확률로 정규 분포와 유사 : 허브가 존재할 가능성은 0에 가까움
+ - 정리 사진
+ ![image](https://user-images.githubusercontent.com/43736669/108664055-4eb24100-7515-11eb-98b3-8afc81cdabfa.png)
+ 
+## 연결 요소(Connected Component)
+ - 1)연결 요소에 속한느 정점들은 경로로 연결될 수 있음
+ - 2) 1)의 조건을 만족하면서 정점을 추갛라 수 없음
+ ![image](https://user-images.githubusercontent.com/43736669/108664123-71445a00-7515-11eb-85de-b65bfc9d084d.png)
+ ![image](https://user-images.githubusercontent.com/43736669/108664158-80c3a300-7515-11eb-899a-82fe703ab95e.png)
+
