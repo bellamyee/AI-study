@@ -69,7 +69,8 @@
 - ### 자연어 처리
   - [introduction to NLP](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
 
-
+## 📌 Graph
+ - [introduction to Graph](https://github.com/JeonghwanLee1/AI-study/blob/main/grpah/graph_basic.md)
 ## 📌 논문 학습 및 구현
 ## 📌 관련 프로젝트
 
