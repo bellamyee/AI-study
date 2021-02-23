@@ -79,7 +79,8 @@
  - [NetworkX tutorial](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx_tutorial.ipynb)
  - [NetworkX를 이용한 군집 계수와 지름 분석](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx_coefficient.md)
  - [페이지 랭크 알고리즘](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/page_rank.md)
- - 
+ - [전파 모델](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/cascade_models.md)
+ - [NetworkX를 이용한 전파 모델 시뮬레이션](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/cascade_models.ipynb)
 ## 📌 논문 학습 및 구현
 ## 📌 관련 프로젝트
 
