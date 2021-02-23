@@ -30,5 +30,20 @@
  
  ![image](https://user-images.githubusercontent.com/43736669/108785205-4826d680-75b4-11eb-84b0-93cc20f22547.png)
 
+## 경사하강법과 선형 회귀
  
+ - 선형 회귀의 목적식은 ||y-Xb|| 이고 이를 최소화하는 b를 찾아야 하므로 다음과 같은 gradient 벡터를 구해야 함
  
+ ![image](https://user-images.githubusercontent.com/43736669/108786958-1a439100-75b8-11eb-82ef-e2df64225e6f.png)
+
+ ![image](https://user-images.githubusercontent.com/43736669/108787073-5676f180-75b8-11eb-95ed-46771a2803bc.png)
+
+## Stochastic Gradient Descent
+
+ - 기존 경사하강법은 미분가능하고 볼록(convex)한 함수에 대해선 적절한 학습률과 학습횟수를 선택했을 때 수렴이 보장되어 있음(특히 선형 회귀)
+
+ - but 비선형회귀 문제의 경우 목적식이 볼록하지 않을 수 있으므로 수렴이 항상 보장되지는 않음
+ 
+ - stochastic gradient descent는 모든 데이터를 사용해서 업데이트하는 대신 데이터를 일부만 사용하여 업데이트함.
+
+ - 
