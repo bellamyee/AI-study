@@ -81,6 +81,8 @@
  - [페이지 랭크 알고리즘](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/page_rank.md)
  - [전파 모델](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/cascade_models.md)
  - [NetworkX를 이용한 전파 모델 시뮬레이션](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/cascade_models.ipynb)
+ - [군집과 군집 탐색](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/community.md)
+ - 
 ## 📌 논문 학습 및 구현
 ## 📌 관련 프로젝트
 
