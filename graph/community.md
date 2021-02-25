@@ -36,16 +36,27 @@
 ## Girvan - Newman 알고리즘
 대표적인 하향식 군집 탐색 알고리즘 
 전체 그래프에서 시작하여 간선을 순차적으로 제거 
+
 ![image](https://user-images.githubusercontent.com/43736669/109108529-17db6580-7777-11eb-923f-1515cba0d653.png)  
+
 다리 역할의 간선을 찾는 법 : 매개 중심성 높은 곳(정점 간의 최단 경로에 놓이는 횟수) 
+
 ![image](https://user-images.githubusercontent.com/43736669/109108604-36416100-7777-11eb-95ad-b2350f9f6a30.png) 
+
 간선이 제가될 때마다, 매개 중심성을 다시 계산하여 갱신 
+
 ![image](https://user-images.githubusercontent.com/43736669/109108674-55d88980-7777-11eb-8ce0-74717eb92337.png) 
+
 ![image](https://user-images.githubusercontent.com/43736669/109108713-612bb500-7777-11eb-8b12-da85fa627fe6.png) 
+
 ![image](https://user-images.githubusercontent.com/43736669/109108736-6be64a00-7777-11eb-8581-d85066efc1a1.png)
+
 간선의 제거 정도에 따라 다른 입도(Granularity)의 군집 구조가 나타남 
+
 군집성이 최대가 되는 기준으로 간선을 제거. 현재의 연결 요소들을 군집으로 가정하되, 입력 그래프에서 군집성을 계산
+
 ![image](https://user-images.githubusercontent.com/43736669/109108842-9b955200-7777-11eb-9eb2-b20b6353d657.png)
+
 
 ## Girvan - Newman 알고리즘 요약
  1) 전체 그래프에서 시작
