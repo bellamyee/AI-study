@@ -60,7 +60,8 @@
 
 - ### Optimization
 
-  - [Optimization 방법 정리](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/optimization.ipynb)
+  - [Optimization 방법 정리(이론)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/optimization.md)
+  - [Optimization 방법 정리(코드)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/optimization.ipynb)
 
   <br>
 
