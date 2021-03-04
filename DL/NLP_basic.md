@@ -66,15 +66,15 @@ ex2) 상품에 대한 소비자 반응 키워드 분석(Groupping)
 
 
 ## Word2Vec
- - 단어를 벡터로 표현하기 위한 알고리즘  
- - 유사한 context의 단어는 유사한 의미를 가진다고 가정 
- - 문장에서 인접한 단어는 유사하다고 가정
- ![image](https://user-images.githubusercontent.com/43736669/108029485-d957f380-7070-11eb-9de8-a8002b99384f.png)
- - cat과 인접한 단어에서 각 단어가 나올 확률분포를 학습
- ![image](https://user-images.githubusercontent.com/43736669/109976840-8d2ed380-7d3f-11eb-932b-4c695e168e48.png)
+ - 단어를 벡터로 표현하기 위한 알고리즘    
+ - 유사한 context의 단어는 유사한 의미를 가진다고 가정  
+ - 문장에서 인접한 단어는 유사하다고 가정  
+ ![image](https://user-images.githubusercontent.com/43736669/108029485-d957f380-7070-11eb-9de8-a8002b99384f.png)  
+ - cat과 인접한 단어에서 각 단어가 나올 확률분포를 학습  
+ ![image](https://user-images.githubusercontent.com/43736669/109976840-8d2ed380-7d3f-11eb-932b-4c695e168e48.png)  
 
 ### Word2Vec 알고리즘의 작동 방식(복습하기!!!!!!!!!!!)
-![image](https://user-images.githubusercontent.com/43736669/109977723-776dde00-7d40-11eb-910a-1ce24e389d07.png)
+![image](https://user-images.githubusercontent.com/43736669/109977723-776dde00-7d40-11eb-910a-1ce24e389d07.png)  
  1) Sentence로부터 Vocabulary 추출
  2) Voc를 Voc 크기만큼의 dim을 가지는 one-hot 벡터로 변환
  3) sliding window 방식으로, window size 만큼을 학습. 예를 들어 window size가 3이라면, (I, study), (study, I), (study, math) 등의 train set 을 가짐
@@ -83,8 +83,8 @@ ex2) 상품에 대한 소비자 반응 키워드 분석(Groupping)
 https://ronxin.github.io/wevi/ : config 조절해서 Word2Vec의 시각화
 
 ### Word2Vec의 결과
-일관된 벡터 방향으로 단어 사이의 관계가 효과적으로 학습됨
-![image](https://user-images.githubusercontent.com/43736669/109978198-f9f69d80-7d40-11eb-8450-20830c295522.png)
+일관된 벡터 방향으로 단어 사이의 관계가 효과적으로 학습됨  
+![image](https://user-images.githubusercontent.com/43736669/109978198-f9f69d80-7d40-11eb-8450-20830c295522.png)  
 
 ### Word2Vec의 활용
 다양한 자연어 처리에서 널리 활용됨 
