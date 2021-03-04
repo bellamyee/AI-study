@@ -65,14 +65,12 @@
 
   <br>
 
-- ### CNN
+- ### Vision, CNN
 
   - [CNN 기초](https://github.com/)
 
-- ### RNN
+- ### NLP, RNN
   - [RNN 기초](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
-
-- ### 자연어 처리
   - [introduction to NLP](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
 
 
