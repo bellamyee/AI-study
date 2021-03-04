@@ -70,8 +70,8 @@
   - [CNN 기초](https://github.com/)
 
 - ### NLP, RNN
-  - [RNN 기초](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
-  - [introduction to NLP](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
+  - [introduction to NLP(Bag-of-words, Word Embedding)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
+  - [RNN family models(RNN, LSTM, GRU)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
 
 
 ## 📌 Graph
