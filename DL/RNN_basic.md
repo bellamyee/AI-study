@@ -60,6 +60,9 @@
 ![image](https://user-images.githubusercontent.com/43736669/106900903-6ed2b980-673a-11eb-839e-54d0d9b02d29.png)
 ![image](https://user-images.githubusercontent.com/43736669/106902336-0e447c00-673c-11eb-9046-053c49c45995.png)
  
+ - forward propagation 은 이렇게
+ ![image](https://user-images.githubusercontent.com/43736669/110049446-2cca8100-7d95-11eb-84f2-9915fb176ce7.png)
+
  <br>
  - 역전파는 잠재변수의 연결 그래프에 따라 순차적으로 계산(BPTT)
  
