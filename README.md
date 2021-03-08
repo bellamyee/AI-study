@@ -77,9 +77,8 @@
 - ### 각종 딥 러닝 학습 기법들
   
   - [Data Augmentation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/data_augmentation.md)
-  - [Transfer Learning, Knowledge distillation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/pretrained.md)
-  - [Semi-supervised learning, Self-training](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/unlabeled.md)
-
+  - [Transfer Learning, Knowledge distillation, Self-training](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/pretrained.md)
+ 
 ## 📌 Graph
  - [introduction to Graph](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/graph_basic.md)
  - [NetworkX tutorial](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx_tutorial.ipynb)
