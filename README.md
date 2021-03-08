@@ -67,12 +67,18 @@
 
 - ### Vision, CNN
 
-  - [CNN 기초](https://github.com/)
+  - [CNN 기초]
+  - [Image Classification Models(LeNet부터 EfficientNet까지)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/classification_models.md)
 
 - ### NLP, RNN
   - [introduction to NLP(Bag-of-words, Word Embedding)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
   - [RNN family models(RNN, LSTM, GRU)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
 
+- ### 각종 딥 러닝 학습 기법들
+  
+  - [Data Augmentation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/data_augmentation.md)
+  - [Transfer Learning, Knowledge distillation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/pretrained.md)
+  - [Semi-supervised learning, Self-training](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/unlabeled.md)
 
 ## 📌 Graph
  - [introduction to Graph](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/graph_basic.md)
