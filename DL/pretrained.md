@@ -42,3 +42,24 @@
 
 ### Student loss와 Distillation loss
  ![image](https://user-images.githubusercontent.com/43736669/110348774-5a554a00-8075-11eb-8b81-d2b43bdf8e43.png)
+
+# Self-trainning
+## Semi-supervised Learning 
+ - labeled dataset + unlabeled dataset으로 학습하는 방법
+ ![image](https://user-images.githubusercontent.com/43736669/110349530-24649580-8076-11eb-9bf2-d321f96bd0b5.png)
+- labeled로 모델 학습 -> 모델로 unlabeled 예측 후 pseudo labeled 생성 -> labeled+pseudo labeled로 train 
+
+## Self-trainning
+ - Augmentation + Teacher-Student + Semi-supervised Learning
+ 
+ ![image](https://user-images.githubusercontent.com/43736669/110349831-73aac600-8076-11eb-979f-49fd59d65322.png)
+ 
+ 1) ImageNet으로 Teacher Model 학습
+ 2) Teacher model로 300M unlabeled data를 pseudo-label
+ 3) 두 데이터를 합쳐서 student model(점점 커짐) 학습(RandAugment 이용)
+ 4) 이전 Teacher Network를 최근 학습된 Student 모델로 최신화
+ 5) 반복
+
+![image](https://user-images.githubusercontent.com/43736669/110350145-c5535080-8076-11eb-9224-beee9d246e66.png)
+ - 매 round마다 더 큰 student 모델 사용(knowledge distillation과는 반대)
+
