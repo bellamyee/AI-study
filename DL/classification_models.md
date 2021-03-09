@@ -75,3 +75,35 @@
 ![image](https://user-images.githubusercontent.com/43736669/110400540-21d85f00-80bb-11eb-8033-9bfa0c70d121.png)
 
 ### residual function
+![image](https://user-images.githubusercontent.com/43736669/110459042-d0a68a80-810f-11eb-91b1-245f8d14ee9c.png)
+ - X to H(x) 관계를 학습할 때 중간 층이 deep 하면 학습하기가 어려워 residual function 이용해 target function 학습
+ - vanashing gradient problem 해결
+ - shortcut connection
+![image](https://user-images.githubusercontent.com/43736669/110459367-3e52b680-8110-11eb-80f0-2a660b2d5fd1.png)
+ - n개의 residual block을 사용하는 경우 모든 residual path 경우의 수는 2^n개가 됨(스위치 껐다 켰다 하는거니까..)
+ - 굉장히 복잡한 mapping을 학습할 수 있음
+ 
+ ### overall architecture
+![image](https://user-images.githubusercontent.com/43736669/110464505-8e347c00-8116-11eb-9cdb-137ae45201c0.png)
+
+## DenseNet
+ - ResNet과 유사하지만, 더하기 연산 대신 channel 방향으로 concat 
+ ![image](https://user-images.githubusercontent.com/43736669/110465538-dc964a80-8117-11eb-826a-6185847b3818.png)
+
+## SENet
+ - 채널 간 관계 모델링. attention 적용
+ - squeeze와 excitation을 통해 attention
+ - squeeze : global avg pooling 을 통해 각 채널의 공간 정보를 없애고 분포를 구하게 됨
+ - excitation : 채널 간의 연관성을 고려 -> attention score 생성
+ - 이렇게 나온 attention으로 입력 attention과 weight를 통해 activation을 rescaling(중요한 값을 강조)
+ ![image](https://user-images.githubusercontent.com/43736669/110465645-08b1cb80-8118-11eb-96f9-7d6c25c4587f.png)
+ 
+## EfficientNet
+ - 채널축을 늘리고(DenseNet), 깊이를 깊게 하고(ResNet), input resolution을 큰걸 넣어주고
+ - 위 factor들을 분배하는 전략 구상
+ ![image](https://user-images.githubusercontent.com/43736669/110466321-f84e2080-8118-11eb-924b-36050c2a013d.png)
+ - [self-trainning](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/pretrained.md)
+ 
+ 
+
+
