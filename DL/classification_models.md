@@ -44,5 +44,34 @@
   - input layer : 224x224 RGB images, train image의 평균 RGB 값을 빼줌(normalization)  
   - feature layer : 3x3 conv layer를 deep 쌓음. 이 경우 filter 크기가 작음에도 큰 receptive field를 가질 수 있으며 parameter 수는 감소.  
   - classification layer : 3 FC layer. ReLU를 사용함
-  
-  
+
+### 깊게 쌓는 것의 문제점
+  - 점점 깊게 쌓을수록 Gradient vanishing / exploding=
+  - 계산 복잡도 문제
+  - Overfitting(X) Degradation problem(O)
+
+## GoogLeNet
+
+### Inception module
+![image](https://user-images.githubusercontent.com/43736669/110399046-6f9f9800-80b8-11eb-8b76-875b9edd9dd2.png)
+
+- 하나의 layer에서 여러 convolution filter를 적용해 output을 concat
+- network size가 커지면 computational resources를 많이 잡아먹음 -> 1x1 convolutions 사용(Dimension reduce)
+- channel dimension을 바꿔줌(심지어 max pooling에서도)
+
+### 1x1 convolutions
+ activation map에서 각 픽셀에 해당하는 채널 축으로 값들을 쌓아서 filter와 내적한 후 m개의 채널로 차원 축소(차원간  convolution?). 각 픽셀에서 채널 수만 조절(사진에선 4->2)
+ ![image](https://user-images.githubusercontent.com/43736669/110399728-a6c27900-80b9-11eb-87a1-c08b5839d221.png)
+
+### GoogLeNet architecture
+![image](https://user-images.githubusercontent.com/43736669/110400097-631c3f00-80ba-11eb-87dd-ffbea2131126.png)
+-inception module을 여러 층 쌓고, 중간중간 gradient를 주입하는 auxiliary classifier 사용
+
+## ResNet
+- deeper network를 쌓으려고 함
+### degradation problem
+- network가 깊어질수록, 성능이 안 좋아지는 이유가 overfitting 때문일까? no. 최적화 문제(overfitting 때문이라면 train error가 deep 할수록 적어야 함)
+- optimization 문제!
+![image](https://user-images.githubusercontent.com/43736669/110400540-21d85f00-80bb-11eb-8033-9bfa0c70d121.png)
+
+### residual function
