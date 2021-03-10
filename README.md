@@ -70,6 +70,8 @@
   - [CNN 기초]
   - [Image Classification Models(LeNet부터 EfficientNet까지)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/classification_models.md)
   - [Semantic Segmentation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/semantic_segmentation.md)
+  - [Object Detection Models(R-CNN ~ RetinaNet)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/object_detection.md)
+
 - ### NLP, RNN
   - [introduction to NLP(Bag-of-words, Word Embedding)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
   - [RNN family models(RNN, LSTM, GRU)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
