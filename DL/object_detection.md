@@ -81,9 +81,37 @@
   - 최종 output은 7 by 7 * 30 channel (B = 2, C = 20)
   - 이 경우 grid(S) = 7. 이 수치가 마지막 layer의 해상도
 
- ### Single Shot Multibox Detector
+ ### Single Shot Multibox Detector(SSD)
   - YOLO는 맨 마지막 layer에서 pred를 하기 때문에 localized에 약함
   - 이를 보완하기 위해 나옴
 ![image](https://user-images.githubusercontent.com/43736669/110584452-9510cc80-81b2-11eb-987f-80963638e128.png)
+  - 각 feature map 마다 해상도에 적정한 bounding box의 크기들을 가지게 함(다양한 bounding box shape 고려 가능)
+ #### 구조
+ ![image](https://user-images.githubusercontent.com/43736669/110587436-0d798c80-81b7-11eb-94f5-71f43503d22e.png)
+ 
+ ## Two-stage detector vs One-stage detector
+ ### Focal loss
+ ![image](https://user-images.githubusercontent.com/43736669/110587910-98f31d80-81b7-11eb-8bcc-4e2929dc9182.png)
+  - Class imbalance : single stage는 RoI가 없다 보니 모든 영역에 대해 loss가 계산된다. 
+ 이를 해결하기 위해 Focal loss 사용
+ ![image](https://user-images.githubusercontent.com/43736669/110588045-cd66d980-81b7-11eb-944b-5f824d54c896.png)
+  - 앞에 확률 term 사용(1-pt) : 잘 맞춘 애들은 더 낮은 loss, 반대는 더 sharp 한 loss
+  - 각 지점에서 gradient를 생각해야함(gamma가 클수록 정답에 먼 곳에서 더 sharp, 가까운곳에서 0에 가까운 grad)
 
+ ## RetinaNet
+ ![image](https://user-images.githubusercontent.com/43736669/110588371-48c88b00-81b8-11eb-9aeb-0859f2daa2b7.png)
+  - U-Net과 유사한 구조
+  - low level의 특징 layer, high level 특징 layer의 특징을 가지면서도 잘 넘겨주기 위해 이런 구조 채택(중간중간 넘겨줌)
+  - class head와 box head 를 따로 구성해서 classification과 box regression을 dense하게 따로 시행
+ 
+ # Detection with transformer
+  ![image](https://user-images.githubusercontent.com/43736669/110588642-a5c44100-81b8-11eb-9e84-05ba86e7d905.png)
+ 
+ ## DETR
+  ![image](https://user-images.githubusercontent.com/43736669/110588684-b7a5e400-81b8-11eb-86ab-f7b44f6ff144.png)
+  - encoder로 특징 추출ㄹ 후 decoder로 각각 넣어줌
+  - transformer에 object quueries가 질의를 함(이 위치에 해당하는 object가 뭐임?)
+  - 파싱되어서 나옴
+ 
+ 
 
