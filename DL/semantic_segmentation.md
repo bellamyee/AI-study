@@ -69,6 +69,39 @@ computational photography : 컴퓨터를 이용해 사진을 편집하는 것
 
 ### overall architecture
 ![image](https://user-images.githubusercontent.com/43736669/110406180-299d0100-80c5-11eb-8b12-2a4f86d32b5b.png)
+![image](https://user-images.githubusercontent.com/43736669/110783310-9a9e0d80-82ab-11eb-8579-fd73b647cbf7.png)
+- 먼저 input image에 대해 pooling을 통해 해상도를 나주고 채널 수를 늘림(receptive field 올림)
+- 반복해서 작은 activation map을 구함(영상의 전반적인 정보가 잘 녹아있다고 가정)
+![image](https://user-images.githubusercontent.com/43736669/110783438-ccaf6f80-82ab-11eb-9045-f9ed6d1ccb6c.png)
+- decoding 과정. 단계별로 activation map의 해상도, 채널 size를 올려줌
+- 낮은 층에 대칭으로 대응되는 layer와 동일한 size로 맞춰서 낮은 층의 activation map을 합쳐서 사용할 수 있도록 함
+- 이후 skip connection으로 합침(concat)
+- channel size는 줄어들고, 해상도는 커지게 됨
+![image](https://user-images.githubusercontent.com/43736669/110783707-20ba5400-82ac-11eb-8d6c-c62fc1a69962.png)
+- 낮은 layer에서 전달된 특징이 localized 된 정보를 줌
+- 공간적인 정보(낮은 layer의 정보)를 뒤쪽 layer에 민감하게 전달
+![image](https://user-images.githubusercontent.com/43736669/110783864-4e9f9880-82ac-11eb-9a6a-fb220c2bd9e9.png)
+- activation map의 spatial size가 홀수라면 안 맞을 가능성이 있음
+![image](https://user-images.githubusercontent.com/43736669/110784004-7b53b000-82ac-11eb-8a5e-a7b249a39f44.png)
+![image](https://user-images.githubusercontent.com/43736669/110784053-89093580-82ac-11eb-8878-fdc6e15e13f5.png)
+- upsampling을 위해 ConvTransposed2d를 사용(stride, kernel size 다 2라서 한칸씩 뛰면서 두칸씩 채워넣으므로 중첩이 안 생김)
 
-
+## DeepLab
+ - CRF 라는 후처리, Atrous Convolution의 사용
+### CRFs
+![image](https://user-images.githubusercontent.com/43736669/110784341-eb623600-82ac-11eb-9358-8949651ec1ce.png)
+- 픽셀과 픽셀 사이의 관계를 이어주는 모델링(graph) 
+- sementic segmention의 첫 output은 굉장히 blur된 값이 나오게 됨. 이를 해결하기 위해 출력 map과 이미지 경계선을 활용해서 score map이 경계에 잘 들어맞도록 확산 시켜줌. 반대로 background 또한 확산시켜(CRF iter) 물체에 경계에 잘 맞는 segmentation을 얻음
+### Dilated convolution
+![image](https://user-images.githubusercontent.com/43736669/110784668-4c8a0980-82ad-11eb-955d-ab20bc8dbfba.png)
+### Depthwise convolution
+![image](https://user-images.githubusercontent.com/43736669/110784741-6592ba80-82ad-11eb-8178-2cca0cb9683c.png)
+- 기존 convolution은 하나의 activation 을 얻기 위해서 커널 전체가 채널 전체에 내적하여 하나의 값을 뽑음
+- depthwise convoltion은 각 절차를 둘로 나눠서, 각 채널을 채널별 conv하고, 그 후 각 채널별 map을 1x1 conv
+- convolution의 표현력은 유지되며, 계산량은 획기적으로 감소
+### Deeplap v3
+![image](https://user-images.githubusercontent.com/43736669/110785049-ce7a3280-82ad-11eb-843c-cd7f8cd28ccc.png) 
+ - dilated convolution layer들 에서 더 큰 receptive field를 가지는 cnn을 적용해서 feature map을 구함
+ - 다양한 rate의 conv들을 통해 multi scale을 처리 -> concat 후 1x1 conv : 다양한 물체의 크기를 고려한 모듈
+ - decoder에서 low level feature과 pyramid pooling feature를 concat 후 upsample을 통해 segmentation 추출 
 
