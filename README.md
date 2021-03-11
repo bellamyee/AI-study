@@ -72,8 +72,11 @@
   - [Semantic Segmentation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/semantic_segmentation.md)
   - [Object Detection Models](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/object_detection.md)
   - [CNN visualization](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/cnn_visualization.md)
+  - [Instance segmentation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/instance_segmentation.md)
+  - [Generative Model](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/generative_model.md)
 
 - ### NLP, RNN
+
   - [introduction to NLP(Bag-of-words, Word Embedding)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
   - [RNN family models(RNN, LSTM, GRU)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
 
