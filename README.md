@@ -74,7 +74,7 @@
   - [CNN visualization](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/cnn_visualization.md)
   - [Instance segmentation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/instance_segmentation.md)
   - [Generative Model](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/generative_model.md)
-  - [Milti-modal learnning](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/multi_modal_learning.md)
+  - [Multi-modal learning](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/multi_modal_learning.md)
 - ### NLP, RNN
 
   - [introduction to NLP(Bag-of-words, Word Embedding)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
