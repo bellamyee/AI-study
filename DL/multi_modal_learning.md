@@ -93,6 +93,6 @@ tag to image / image to tag task
 ![image](https://user-images.githubusercontent.com/43736669/110879114-c22ebd80-831f-11eb-934f-798b99356283.png)
  - 1d sound를 spectogram이나 MFCC 형태의 Acoustic feature로 변환 
 ![image](https://user-images.githubusercontent.com/43736669/110879230-ebe7e480-831f-11eb-97c6-72ae243d7c5d.png)
- - 변환 방법
+ 변환 방법
  - fourier transform : 시간축의 waveform을 주파수 축으로 바꿔주는 것
  - 굉장히 짧은 window 구간 동안 Fourier transform을 사용하는 것
