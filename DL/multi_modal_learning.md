@@ -69,7 +69,7 @@ tag to image / image to tag task
  - y2로는 이전 출력 단어 넣음
 ![image](https://user-images.githubusercontent.com/43736669/110878211-1c2e8380-831e-11eb-83fa-10b9e2da0b8b.png)
  - 다음 단어 출력
- - s3(다음 attention)을 
+ - s3(다음 attention)을 이용해 반복
 
 ##### Text to image generative model
  ![image](https://user-images.githubusercontent.com/43736669/110878283-4da74f00-831e-11eb-9e9f-7e3e8541bf39.png)
@@ -91,8 +91,59 @@ tag to image / image to tag task
 ### Visual data & Audio task
 #### Sound data representation
 ![image](https://user-images.githubusercontent.com/43736669/110879114-c22ebd80-831f-11eb-934f-798b99356283.png)
- - 1d sound를 spectogram이나 MFCC 형태의 Acoustic feature로 변환 
+- 1d sound를 spectogram이나 MFCC 형태의 Acoustic feature로 변환 
 ![image](https://user-images.githubusercontent.com/43736669/110879230-ebe7e480-831f-11eb-97c6-72ae243d7c5d.png)
  변환 방법
- - fourier transform : 시간축의 waveform을 주파수 축으로 바꿔주는 것
- - 굉장히 짧은 window 구간 동안 Fourier transform을 사용하는 것
+- fourier transform : 시간축의 waveform을 주파수 축으로 바꿔주는 것
+- 굉장히 짧은 window 구간 동안 Fourier transform을 사용하는 것
+![image](https://user-images.githubusercontent.com/43736669/110898840-565e4c00-8343-11eb-9daa-932b67ce0f6c.png)
+
+#### Joint embedding(Matching) : SoundNet
+![image](https://user-images.githubusercontent.com/43736669/110898923-7e4daf80-8343-11eb-9f6d-f51d4131550a.png)
+Scene recognition by sound
+![image](https://user-images.githubusercontent.com/43736669/110899051-c4a30e80-8343-11eb-9294-d0c4bc7e5ac2.png)
+- audio의 표현을 어떻게 학습 할 것인가에 대한 방법론
+- 기존의 pre-trained CNN 두개를 사용함
+- video의 음성만 추출해 cnn에 넣어줌
+- 마지막 두 개의 head : object recognition, place recognition
+- waveform을 사용(spectrogram에 대한 생각을 못함)
+- teacher-student 방법 사용(visual recog -> sound transfer learning)
+- 우리가 원하는 target task로 응용 가능(pool5 feature 추출해서 사용)
+- pool5(generalizable semantic info 내재)에 classifier 올려놓아서 다른 task에 사용
+
+#### Cross modal translation(Translating) : Speech2Face
+![image](https://user-images.githubusercontent.com/43736669/110899645-d507b900-8344-11eb-9bda-3cf0288290ad.png)
+- voice로부터 얼굴을 상상하는 모델 : modular network 활용
+![image](https://user-images.githubusercontent.com/43736669/110899755-01bbd080-8345-11eb-9984-10bc5af531cf.png)
+
+#### Image to speech synthesis \[Hsu et al., arXiv 2020]
+![image](https://user-images.githubusercontent.com/43736669/110899956-52cbc480-8345-11eb-99e0-4ec58bddce3b.png)
+![image](https://user-images.githubusercontent.com/43736669/110899973-58c1a580-8345-11eb-9320-db088a8d8389.png)
+- image에서 word단위를 추출하는 게 아닌 sub-word unit 추출(token)
+- unit에서부터 음성을 복원하는 모델 학습
+![image](https://user-images.githubusercontent.com/43736669/110900085-8b6b9e00-8345-11eb-8923-99fed74722ff.png)
+중간에서 unit이 잘 호환될 수 있도록 유도.
+
+
+#### Cross modal reasoning : Sound Source localization
+![image](https://user-images.githubusercontent.com/43736669/110900310-e8ffea80-8345-11eb-95dd-9aed76bf4d9f.png)
+- 이 소리가 어디서 나는지 영상에서 찾는 것
+![image](https://user-images.githubusercontent.com/43736669/110900422-0d5bc700-8346-11eb-8ea0-2b04e5f2ddca.png)
+![image](https://user-images.githubusercontent.com/43736669/110900455-1a78b600-8346-11eb-8fe1-f529c7c44c77.png)
+- sound feature와 visual feature의 관계성을 위해 내적
+- Ground Truth Localization score와 supervised learning
+![image](https://user-images.githubusercontent.com/43736669/110900561-44ca7380-8346-11eb-9f9a-74985b94098b.png)
+- unsupervised 학습. visual feature를 가져오고 localization score을 weighted score로 사용해 attended visual feature 사용
+- Attended visual feature과 audio net 의 feature의 metric learn(비슷한 곳에선 비슷해야하고 다른 곳에서는 달라야 한다)
+![image](https://user-images.githubusercontent.com/43736669/110900704-8824e200-8346-11eb-9d76-5838deb440f4.png)
+
+#### Speech seperation : look listener 
+![image](https://user-images.githubusercontent.com/43736669/110900912-d89c3f80-8346-11eb-9519-8c66ad63d316.png)
+![image](https://user-images.githubusercontent.com/43736669/110901011-fd90b280-8346-11eb-8b96-b6cf03e8530f.png)
+- 각각의 얼굴들을 face embedding 해서 feature vector를 뽑음
+![image](https://user-images.githubusercontent.com/43736669/110901195-48122f00-8347-11eb-8758-c50db41b4890.png)
+- wave form을 spectogram으로 만들어 음원 정보 추출
+![image](https://user-images.githubusercontent.com/43736669/110901233-58c2a500-8347-11eb-9fdf-90349f0512df.png)
+- 뽑은 얼굴 feature와 audio feature을 concat하고 각각의 spectrogram을 어떻게 분리해야하는지 마스킹해서 나눔 -> output waveform
+- Train set을 구하기 힘드니(나누어진 speech data), 두 개의 clean speech 데이터를 합성해서 train set을 만든다
+
