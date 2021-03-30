@@ -58,11 +58,12 @@
   
 ## 📌 Deep Learning
 
-- ### Optimization
+- ### Optimization, Loss
 
   - [Optimization 방법 정리(이론)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/optimization.md)
   - [Optimization 방법 정리(코드)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/optimization.ipynb)
-
+  - [Focal-Loss, Class-Balanced Loss](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/focal_loss.ipynb)
+  
   <br>
 
 - ### Vision, CNN
