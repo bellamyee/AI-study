@@ -18,10 +18,6 @@
 
 <br>
 
-- ### ✏️ TEST
-
-  - [공란](https://github.com/)
-
 <br>
 
 ## 📌 AI Python Libraries / Frameworks
@@ -105,7 +101,6 @@
  
 
 ## 📌 논문 학습 및 구현
-## 📌 관련 프로젝트
 
 ## 📌 꿀정보
  - [Papers You Must Read(Korea Univ)](https://www.notion.so/c3b3474d18ef4304b23ea360367a5137?v=5d763ad5773f44eb950f49de7d7671bd)
