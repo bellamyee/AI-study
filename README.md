@@ -6,7 +6,7 @@
 
 ## 📌 AI Projects 
 - [마스크 착용 유무, 성별, 나이 Multi-label image classification model](https://github.com/JeonghwanLee1/mask-multilabel-classifiaction-model)
-
+- [구직자의 채용 공고 지원 유무를 판단하는 ML model](https://github.com/JeonghwanLee1/job_recommendation_model)
 <br>
 
 ## 📌 AI MATH
