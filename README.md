@@ -12,9 +12,9 @@
 ## 📌 AI MATH
 
 - [경사 하강법](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.md)
-- [확률론](https://github.com/) 
-- [통계학(기초)](https://github.com/)
-- [통계학(베이즈 통계학)](https://github.com/)
+- [확률론] 
+- [통계학(기초)]
+- [통계학(베이즈 통계학)]
 
 <br>
 
@@ -37,7 +37,7 @@
 - ### Pandas
 
   - [pandas 기초](https://github.com/JeonghwanLee1/AI-study/blob/main/pandas/pandas_tutorial.ipynb)
-  - [pandas 함수별 속도 비교와 최적화 기법](https://github.com/)
+  - [pandas 함수별 속도 비교와 최적화 기법]
   
   <br>
 
@@ -49,8 +49,8 @@
 
 - ### Pytorch
 
-  - [pytorch tutorial](https://github.com/)
-  - [pytorch MLP](https://github.com/)
+  - [pytorch tutorial]
+  - [pytorch MLP]
   - [pytorch를 이용한 optimization 성능 비교](https://github.com/JeonghwanLee1/AI-study/blob/main/pytorch/optimization.ipynb)
 
 - ### Graph, 추천 시스템
