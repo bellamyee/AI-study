@@ -3,8 +3,9 @@
 ------
 
 <br>
-## 📌 AI Projects
-- [마스크 착용 유무, 성별, 나이 Multi-label image classification model]
+
+## 📌 AI Projects 
+- [마스크 착용 유무, 성별, 나이 Multi-label image classification model](https://github.com/JeonghwanLee1/mask-multilabel-classifiaction-model)
 
 <br>
 
