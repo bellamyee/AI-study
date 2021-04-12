@@ -3,6 +3,10 @@
 ------
 
 <br>
+## 📌 AI Projects
+- [마스크 착용 유무, 성별, 나이 Multi-label image classification model]
+
+<br>
 
 ## 📌 AI MATH
 
