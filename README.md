@@ -79,6 +79,11 @@
   - [Generative Model](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/generative_model.md)
   - [Multi-modal learning](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/multi_modal_learning.md)
   - [3D understanding](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/3d_understanding.md)
+
+- ### Detection & Segmentation(심화)
+  - [Detection & Segmentation Overview](https://github.com/DL/detandseg.md)
+
+
 - ### NLP, RNN
 
   - [introduction to NLP(Bag-of-words, Word Embedding)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/NLP_basic.md)
