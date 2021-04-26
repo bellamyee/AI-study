@@ -82,7 +82,7 @@
 
 - ### Detection & Segmentation(심화)
   - [Detection & Segmentation Overview](https://github.com/DL/detandseg.md)
-
+  - [Segmentation Basics](https://github.com/DL/seg_basics.md)
 
 - ### NLP, RNN
 
