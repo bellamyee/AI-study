@@ -83,6 +83,7 @@
 - ### Detection & Segmentation(심화)
   - [Detection & Segmentation Overview](https://github.com/DL/detandseg.md)
   - [Segmentation Basics](https://github.com/DL/seg_basics.md)
+  - [Segmentation Models(Deconvnet, SegNet, FC DenseNet, DeepLab v1~v3, PSPNet, DilatedNet](https://github.com/DL/seg_models.md)
 
 - ### NLP, RNN
 
