@@ -81,9 +81,9 @@
   - [3D understanding](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/3d_understanding.md)
 
 - ### Detection & Segmentation(심화)
-  - [Detection & Segmentation Overview](https://github.com/DL/detandseg.md)
-  - [Segmentation Basics](https://github.com/DL/seg_basics.md)
-  - [Segmentation Models(Deconvnet, SegNet, FC DenseNet, DeepLab v1~v3, PSPNet, DilatedNet](https://github.com/DL/seg_models.md)
+  - [Detection & Segmentation Overview](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/detandseg.md)
+  - [Segmentation Basics](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/seg_basics.md)
+  - [Segmentation Models(Deconvnet, SegNet, FC DenseNet, DeepLab v1~v3, PSPNet, DilatedNet](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/seg_models.md)
 
 - ### NLP, RNN
 
