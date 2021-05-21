@@ -8,7 +8,7 @@
 - [마스크 착용 유무, 성별, 나이 Multi-label image classification model](https://github.com/JeonghwanLee1/mask-multilabel-classifiaction-model)
 - [구직자의 채용 공고 지원 유무를 판단하는 ML model](https://github.com/JeonghwanLee1/job_recommendation_model)
 - [한국어 문장 내 개체간 관계 추측 Model(NLP, BERT, Relation Extraction)](https://github.com/JeonghwanLee1/relation-extraction)
-- [재활용 쓰레기 탐지 Segmentation Model(Semantic Segmentation, DeeplabV3+)](https://github.com/bcaitech1/p3-ims-obd-doggum/tree/ljh)
+- [재활용 쓰레기 탐지 Segmentation Model(Semantic Segmentation, DeeplabV3+)](https://github.com/bcaitech1/p3-ims-obd-doggum/tree/main/ljh)
 - [재활용 쓰레기 탐지 Object Detection Model(Object Detection, Masked-RCNN, Swin Transformer)](https://github.com/JeonghwanLee1/)
 
 <br>
