@@ -94,7 +94,7 @@
   - [RNN family models(RNN, LSTM, GRU)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
 
 - ### OCR
-
+  - [introduction to OCR](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/OCR_basic.md)
 
 - ### 각종 딥 러닝 학습 기법들
   
