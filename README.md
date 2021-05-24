@@ -10,7 +10,6 @@
 - ~~[한국어 문장 내 개체간 관계 추측 Model(NLP, BERT, Relation Extraction)]~~ [.](https://github.com/JeonghwanLee1/relation-extraction)
 - [재활용 쓰레기 탐지 Segmentation Model(Semantic Segmentation, DeeplabV3+)](https://github.com/bcaitech1/p3-ims-obd-doggum/tree/main/ljh)
 - [재활용 쓰레기 탐지 Object Detection Model(Object Detection, Masked-RCNN, Swin Transformer)](https://github.com/JeonghwanLee1/)
-- [재활용 쓰레기 탐지 Object Detection Model(Object Detection, Masked-RCNN, Swin Transformer)](https://github.com/JeonghwanLee1/)
 - [수식 인식기(OCR)](https://github.com/JeonghwanLee1/math_expression_recog)
 <br>
 
