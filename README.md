@@ -86,7 +86,7 @@
 - ### Detection & Segmentation(심화)
   - [Detection & Segmentation Overview](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/detandseg.md)
   - [Segmentation Basics](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/seg_basics.md)
-  - [Segmentation Models(Deconvnet, SegNet, FC DenseNet, DeepLab v1~v3, PSPNet, DilatedNet](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/seg_models.md)
+  - [Segmentation Models(Deconvnet, SegNet, FC DenseNet, DeepLab v1~v3, PSPNet, DilatedNet)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/seg_models.md)
 
 - ### NLP, RNN
 
@@ -94,7 +94,7 @@
   - [RNN family models(RNN, LSTM, GRU)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/RNN_basic.md)
 
 - ### OCR
-  - [introduction to OCR](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/OCR_basic.md)
+  - [introduction to OCR(OCR Task, Detection, Segmenation background)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/OCR_basic.md)
   - [Text Localization(Detection, Segmentation, Hybrid based)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/text_localization.md)
   - [Text Recongnition(CHAR, CRNN, CTC, ASTER)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/text_recognition.md)
 
