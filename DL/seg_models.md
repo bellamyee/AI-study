@@ -41,7 +41,7 @@
 ## Architecture
 ![image](https://user-images.githubusercontent.com/43736669/119690686-de54ec00-be84-11eb-8b75-5b501ae3279e.png)
 - VGG16의 13개 층을 Encoder로 사용, 이를 뒤집어 Decoder로 사용(동일)
-- FC Layer를 모두 제거해서 파라미터 수 감소
+- FC Layer를 모두 제거해서 파라미터 수 감소(가운데 부분)
 - Decoder 파트에서 Transposed Conv(Deconv)가 아닌 Convolution 사용
     - sparse matrix를 dense matrix     
 - Encoder 부분은 Pretrained 된 네트워크 사용(Conv+BN+ReLU)
