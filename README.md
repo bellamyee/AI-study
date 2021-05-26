@@ -95,6 +95,8 @@
 
 - ### OCR
   - [introduction to OCR](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/OCR_basic.md)
+  - [Text Localization(Detection, Segmentation, Hybrid based)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/text_localization.md)
+  - [Text Recongnition(CHAR, CRNN, CTC, ASTER)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/text_recognition.md)
 
 - ### 각종 딥 러닝 학습 기법들
   
