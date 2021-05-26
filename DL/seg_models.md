@@ -29,6 +29,23 @@
 - Unpooling의 경우, example-specific한 구조를 잡아냄(자세한 구조)
 - Transposed Conv의 경우 class-specific한 구조를 잡아냄(위의 구조에 빈 부분을 채움)
 
+## DeconvNet Code
+![image](https://user-images.githubusercontent.com/43736669/119688670-25da7880-be83-11eb-9832-7bd882d611dc.png)
+- 앞부분은 FCN과 유사, Decoder 부분이 Unpool+Deconv로 이루어짐
+- unpool의 경우 max pooling 시 해당 max pool이 이루어진 위치를 기억했다가 복원하는 방식을 채택하는데, 위와 같은 코드로 기억과 복원 가능
+
+# SegNet
+- Road Scene Understanding applicaitons 분야에서 Sementic Segmentation을 수행하기 위해 고안됨
+    - 특히 자율 주행에 있어 차량, 도로, 차선, 사람 등을 빠르고 정확하게 구분할 수 있어야 함(Time이 중요한 평가지표로 사용)
+
+## Architecture
+![image](https://user-images.githubusercontent.com/43736669/119690686-de54ec00-be84-11eb-8b75-5b501ae3279e.png)
+- VGG16의 13개 층을 Encoder로 사용, 이를 뒤집어 Decoder로 사용(동일)
+- FC Layer를 모두 제거해서 파라미터 수 감소
+- Decoder 파트에서 Transposed Conv(Deconv)가 아닌 Convolution 사용
+    - sparse matrix를 dense matrix     
+- Encoder 부분은 Pretrained 된 네트워크 사용(Conv+BN+ReLU)
+
 ## DeconvNet vs SegNet  
 ![image](https://user-images.githubusercontent.com/43736669/116570559-517e4780-a945-11eb-9741-41bf1c4f7b66.png)
 
