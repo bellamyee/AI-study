@@ -48,3 +48,6 @@
 
 - input과 output 사이의 정확한 alignment를 몰라도 쓸 수 있음(alignment-free algorithm)
 - CTC는 input과 output 사이의 모든 가능한 alignment의 가능성을 더하여 계산
+
+
+![image](https://user-images.githubusercontent.com/43736669/120153100-4874e480-c229-11eb-94c7-176b32c0c498.png)
