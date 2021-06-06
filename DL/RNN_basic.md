@@ -44,7 +44,7 @@
 ## RNN
 
 ### RNN의 이해
- - 
+
  - 가장 기본적인 RNN 모형은 MLP와 유사한 모양(자기 자신으로 돌아오는 구조가 추가)<br>
  
  ![image](https://user-images.githubusercontent.com/43736669/106908817-00dec000-6743-11eb-8656-2c3bd54552a2.png)
@@ -84,3 +84,6 @@
  - 이런 문제들 때문에 등장한 모델이 LSTM, GRU
  
 ## LSTM
+ ![image](https://user-images.githubusercontent.com/43736669/120930452-3fec4480-c728-11eb-8622-47dfcf776b26.png)
+
+ 
