@@ -13,14 +13,6 @@
 - [수식 인식기(OCR)](https://github.com/bcaitech1/p4-fr-soccer)
 <br>
 
-## 📌 AI MATH
-
-- [경사 하강법](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.md)
-- [확률론] 
-- [통계학(기초)]
-- [통계학(베이즈 통계학)]
-
-<br>
 
 <br>
 
@@ -31,6 +23,9 @@
   - [경사 하강법(파이썬 코드)](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.ipynb)
 
   <br>
+- ### Docker
+   - [Docker 기본](https://github.com/JeonghwanLee1/AI-study/blob/main/docker/docker_start.md)
+
 
 - ### Numpy
 
@@ -102,7 +97,17 @@
   
   - [Data Augmentation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/data_augmentation.md)
   - [Transfer Learning, Knowledge distillation, Self-training](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/pretrained.md)
- 
+
+## 📌 AI MATH
+
+- [경사 하강법](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.md)
+- [확률론] 
+- [통계학(기초)]
+- [통계학(베이즈 통계학)]
+
+<br>
+
+
 ## 📌 Graph
  - [introduction to Graph](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/graph_basic.md)
  - [NetworkX tutorial](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx_tutorial.ipynb)
