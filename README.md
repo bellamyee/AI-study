@@ -15,6 +15,11 @@
 
 
 <br>
+## 📌 MLOps
+- ### Docker
+   - [Docker Tutorial](https://github.com/JeonghwanLee1/getting-started)
+
+- ### Kubernates
 
 ## 📌 AI Python Libraries / Frameworks
 - ### Python
@@ -23,10 +28,7 @@
   - [경사 하강법(파이썬 코드)](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.ipynb)
 
   <br>
-- ### Docker
-   - [Docker Tutorial](https://github.com/JeonghwanLee1/docker_tutorial)
 
-- ### Kubernates
 
 - ### Numpy
 
