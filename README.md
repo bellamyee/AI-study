@@ -26,6 +26,7 @@
 - ### Docker
    - [Docker 기본](https://github.com/JeonghwanLee1/AI-study/blob/main/docker/docker_start.md)
 
+- ### Kubernates
 
 - ### Numpy
 
