@@ -107,7 +107,7 @@
 - [통계학(베이즈 통계학)]
 
 <br>
-
+<!--
 
 ## 📌 Graph
  - [introduction to Graph](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/graph_basic.md)
@@ -119,7 +119,7 @@
  - [군집과 군집 탐색](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/community.md)
  - [노드의 벡터화](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/node_embedding.md)
  - [그래프 신경망](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/gnn.md)
- 
+ -->
 
 ## 📌 논문 학습 및 구현
 
