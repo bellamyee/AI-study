@@ -13,9 +13,8 @@
 - [수식 인식기(OCR)](https://github.com/bcaitech1/p4-fr-soccer)
 <br>
 
+## 📌MLOps
 
-<br>
-## 📌 MLOps
 - ### Docker
    - [Docker Tutorial](https://github.com/JeonghwanLee1/getting-started)
 
