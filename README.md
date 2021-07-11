@@ -16,7 +16,7 @@
 ## 📌MLOps
 
 - ### Docker
-   - [Docker Tutorial](https://github.com/JeonghwanLee1/getting-started)
+   - [Docker Tutorial](https://github.com/JeonghwanLee1/docker_tutorial)
 
 - ### Kubernates
 
