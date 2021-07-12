@@ -38,7 +38,7 @@
 - ### Pandas
 
   - [pandas 기초](https://github.com/JeonghwanLee1/AI-study/blob/main/pandas/pandas_tutorial.ipynb)
-  - [pandas 함수별 속도 비교와 최적화 기법]
+ <!-- - [pandas 함수별 속도 비교와 최적화 기법]-->
   
   <br>
 
@@ -103,9 +103,9 @@
 ## 📌 AI MATH
 
 - [경사 하강법](https://github.com/JeonghwanLee1/AI-study/blob/main/ai_math/GD.md)
-- [확률론] 
+ <!-- - [확률론] 
 - [통계학(기초)]
-- [통계학(베이즈 통계학)]
+- [통계학(베이즈 통계학)]-->
 
 <br>
 <!--
