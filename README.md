@@ -15,7 +15,7 @@
 
 ## 📌MLOps
 - ### Django
-   - [Django Tutorial](https://github.com/JeonghwanLee1/docker_tutorial)
+   - [Django Tutorial](https://github.com/JeonghwanLee1/django-tutorial)
 - ### Docker
    - [Docker Tutorial](https://github.com/JeonghwanLee1/docker_tutorial)
    - [Docker Compose 이용 django 개발환경 구축하기](https://github.com/JeonghwanLee1/docker_django)
