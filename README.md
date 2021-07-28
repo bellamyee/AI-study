@@ -13,7 +13,7 @@
 - [수식 인식기(OCR)](https://github.com/bcaitech1/p4-fr-soccer)
 <br>
 
-## 📌MLOps
+## 📌Data & Back-end Engineering
 - ### Django
    - [Django Tutorial](https://github.com/JeonghwanLee1/django-tutorial)
 - ### Docker
