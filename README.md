@@ -56,9 +56,9 @@
   <br>
 
 - ### Pytorch
-
+  <!--
   - [pytorch tutorial]
-  - [pytorch MLP]
+  - [pytorch MLP]-->
   - [pytorch를 이용한 optimization 성능 비교](https://github.com/JeonghwanLee1/AI-study/blob/main/pytorch/optimization.ipynb)
 
 - ### Graph, 추천 시스템
