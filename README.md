@@ -13,6 +13,8 @@
 - [수식 인식기(OCR)](https://github.com/bcaitech1/p4-fr-soccer)
 
 ## 📌Data & Back-end Engineering
+- ### Poetry
+   - [Poetry Tutorial](https://github.com/JeonghwanLee1/poetry_tutorial)
 - ### Django
    - [Django Tutorial](https://github.com/JeonghwanLee1/django-tutorial)
 - ### Docker
