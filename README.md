@@ -78,7 +78,7 @@
 
 - ### Vision, CNN
 
-  - [CNN 기초]
+  <!-- - [CNN 기초] -->
   - [Image Classification Models(LeNet부터 EfficientNet까지)](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/classification_models.md)
   - [Semantic Segmentation](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/semantic_segmentation.md)
   - [Object Detection Models](https://github.com/JeonghwanLee1/AI-study/blob/main/DL/object_detection.md)
