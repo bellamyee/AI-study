@@ -14,7 +14,7 @@
 
 ## 📌Data & Back-end Engineering
 - ### Poetry
-   - [Poetry Tutorial](https://github.com/JeonghwanLee1/poetry_tutorial)
+   - [Poetry Tutorial](https://github.com/JeonghwanLee1/poetry-tutorial)
 - ### Django
    - [Django Tutorial](https://github.com/JeonghwanLee1/django-tutorial)
 - ### Docker
