@@ -61,10 +61,11 @@
   - [pytorch MLP]-->
   - [pytorch를 이용한 optimization 성능 비교](https://github.com/JeonghwanLee1/AI-study/blob/main/pytorch/optimization.ipynb)
 
+<!--
 - ### Graph, 추천 시스템
   - [NetworkX](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx.md)
   - [NetworkX를 이용한 군집 계수와 지름 분석](https://github.com/JeonghwanLee1/AI-study/blob/main/graph/networkx_coefficient.md)
-  
+  -->
 ## 📌 Deep Learning
 
 - ### Optimization, Loss
